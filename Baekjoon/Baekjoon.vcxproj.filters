@@ -36,5 +36,23 @@
     <ClCompile Include="10811_B2_바구니 뒤집기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="5622_B2_다이얼.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3003_B5_킹, 퀸, 룩, 비숍, 나이트, 폰.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10988_B3_팰린드롬인지 확인하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="25206_S5_너의 평점은.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2566_B3_최대값.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="18870_S2_좌표 압축.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
