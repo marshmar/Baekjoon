@@ -60,13 +60,22 @@
     <ClCompile Include="30804_S2_과일 탕후루_fail2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="30804_S2_과일 탕후루.cpp">
+    <ClCompile Include="30804_S2_과일 탕후루_ans.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="10798_B1_세로 읽기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="2563_S5_색종이.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="30804_S2_과일 탕후루_resol1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2745_B2_진법 변환.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11005_B1_진법 변환2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
