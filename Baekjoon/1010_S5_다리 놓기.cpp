@@ -33,5 +33,6 @@ int main()
 		cin >> N >> M;
 		cout << Combination(M, N) << '\n';
 	}
+
 	return 0;
 }
