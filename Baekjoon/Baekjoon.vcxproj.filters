@@ -102,5 +102,8 @@
     <ClCompile Include="2776_S4_암기왕.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="9506_B1_약수들의 합.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
