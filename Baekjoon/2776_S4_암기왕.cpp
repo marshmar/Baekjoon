@@ -1,33 +1,43 @@
 #include<iostream>
 #include<vector>
+#include<set>
 
 using namespace std;
 
-vector<int> note1, note2;
+const int maxSize = 1000004;
+set<int> s;
 
 int main()
 {
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL); cout.tie(NULL);
+
 	int T;
 	cin >> T;
 
-	int N, M;
+	int N, M, num;
 	for (int i = 0; i < T; i++)
 	{
-		note1.clear(); note2.clear();
-
 		cin >> N;
 		for (int j = 0; j < N; j++)
 		{
-			int num;
 			cin >> num;
-			note1.push_back(num);
+			s.insert(num);
 		}
 
 		cin >> M;
 		for (int j = 0; j < M; j++)
 		{
-			int num;
+			cin >> num;
+
+			if (s.find(num) != s.end())
+			{
+				cout << 1 << '\n';
+			}
+			else
+				cout << 0 << '\n';
 		}
 
+		s.clear();
 	}
 }
