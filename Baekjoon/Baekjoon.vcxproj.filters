@@ -93,19 +93,19 @@
     <ClCompile Include="2501_B3_약수 구하기cpp.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2309_B1_일곱 난쟁이.cpp">
+    <ClCompile Include="1010_S5_다리 놓기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2309_B1_일곱 난쟁이_sol2.cpp">
+    <ClCompile Include="1427_S5_소트인사이드.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2309_B1_일곱 난쟁이_sol3.cpp">
+    <ClCompile Include="2776_S4_암기왕.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2309_B1_일곱 난쟁이_sol4.cpp">
+    <ClCompile Include="9506_B1_약수들의 합.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="10808_B4_알파벳 개수.cpp">
+    <ClCompile Include="10815_S5_숫자카드.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
