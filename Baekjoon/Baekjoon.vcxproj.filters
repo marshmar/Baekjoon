@@ -132,5 +132,8 @@
     <ClCompile Include="2559_S3_수열.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2309_B1_일곱 난쟁이_resolve1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
