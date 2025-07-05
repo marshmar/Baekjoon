@@ -108,5 +108,29 @@
     <ClCompile Include="10815_S5_숫자카드.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10808_B4_알파벳 개수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2979_B2_트럭 주차.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10988_B3_팰린드롬인지 확인하기_sol2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1159_B2_농구 경기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11655_B1_ROT13.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9996_S3_한국이 그리울 땐 서버에 접속하지.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9996_S3_한국이 그리울 땐 서버에 접속하지_sol2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2559_S3_수열.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
