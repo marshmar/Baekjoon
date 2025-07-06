@@ -135,5 +135,14 @@
     <ClCompile Include="2309_B1_일곱 난쟁이_resolve1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1213_S3_팰린드롬 만들기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9996_S3_한국이 그리울 땐 서버에 접속하지_resolve1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1620_S4_나는야 포켓몬 마스터 이다솜.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
