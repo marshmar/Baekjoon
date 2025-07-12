@@ -1,39 +1,41 @@
 #include<iostream>
-#include<map>
 #include<string>
+#include<map>
 
 using namespace std;
 
-map<string, int> enc;
-int N, M;
+using p_t = pair<string, int>;
 
-bool comp(string& ori, string& comp)
-{
-	return ori == comp;
-}
+int N, M;
+map<string, int> m;
+string a[100'004];
+
 
 int main()
 {
-	cin >> N >> M;
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL); cout.tie(NULL);
 
-	string name;
+	cin >> N >> M;
+	
+	string s;
 	for (int i = 0; i < N; i++)
 	{
-		cin >> name;
-		enc[name] = i;
+		cin >> s;
+		m.insert({ s, i });
+		a[i] = s;
 	}
 
-	string temp;
+
 	for (int i = 0; i < M; i++)
 	{
-		cin >> temp;
-		if (atoi(temp.c_str()))
+		cin >> s;
+
+		if (atoi(s.c_str()))
+			cout << a[atoi(s.c_str())-1] << '\n';
+		else
 		{
-			cout << enc.find()
-		}
-		else 
-		{
-			cout << enc[temp] << endl;
+			cout << m[s]+1 << '\n';
 		}
 	}
 	return 0;
