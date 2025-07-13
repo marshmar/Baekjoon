@@ -153,5 +153,20 @@
     <ClCompile Include="1940_S4_주몽_sol3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2309_B1_일곱 난쟁이_resolve2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3986_S3_좋은 단어.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4375_S3_1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1629_S1_곱셈.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3986_S3_좋은 단어_resolve1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
