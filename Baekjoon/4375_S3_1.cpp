@@ -1,14 +1,16 @@
 #include<iostream>
+
 using namespace std;
 
 using ll = long long;
+typedef long long ll;
 
 int main()
 {
 	int n;
 
 	// 입력이 없을 때까지 입력 받기
-	while (scanf("%d", &n) != EOF)
+	while (cin >> n)
 	{
 		ll cnt = 1, ret = 1;
 		while (true)

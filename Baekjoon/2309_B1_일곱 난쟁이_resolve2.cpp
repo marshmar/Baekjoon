@@ -2,9 +2,14 @@
 #include<algorithm>
 #include<vector>
 #include<cmath>
+#include<climits>
+#include<limits>
+
 using namespace std;
 
 vector<int> v(9);
+
+
 int main()
 {
 	for (int i = 0; i < 9; i++)

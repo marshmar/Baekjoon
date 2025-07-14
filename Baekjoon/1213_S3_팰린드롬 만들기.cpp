@@ -44,6 +44,8 @@ void solve()
 		ret.insert(ret.begin() + ret.size() / 2, center);
 	cout << ret << endl;
 }
+
+
 int main()
 {
 	cin >> input;
