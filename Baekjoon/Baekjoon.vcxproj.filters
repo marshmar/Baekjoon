@@ -225,5 +225,8 @@
     <ClCompile Include="2910_S3_빈도 정렬.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="4659_S5_비밀번호 발음하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
