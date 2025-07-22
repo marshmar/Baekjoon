@@ -240,5 +240,17 @@
     <ClCompile Include="14502_G4_연구소.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2910_S3_빈도 정렬_ans.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4659_S5_비밀번호 발음하기_ans.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2870_S4_수학숙제_ans.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10709_S5_기상캐스터_ans.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
