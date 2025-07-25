@@ -300,5 +300,17 @@
     <ClCompile Include="14620_S2_꽃길_ans.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="16637_G3_괄호 추가하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="16638_G2_괄호 추가하기2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12851_G4_숨바꼭질2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13913_G4_숨바꼭질4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
