@@ -1,59 +1,78 @@
 /*
-* dp로 풀려고 했으나 못 풀었음.
-* 핵심 알고리즘은 bfs
+* 나는 먼저 visited를 구하고, dfs도 다시 돌아가면서 출력하면 되지 않나 라고 생각했으나.
+* trace 알고리즘이 따로 있음
+* 넘어갈때 마다 prev[next] = here
+* 그리고 출력할 때 cout << prev[i]; i = prev[i];
+* 이런식으로 역추적하면 ok
 */
 #include<iostream>
 #include<queue>
+#include<stack>
 #include<vector>
 using namespace std;
 
-const int MAX = 200'000;
-int visited[MAX + 4];
-long long cnt[MAX + 4];
-vector<int> ret[MAX+4];
+int n, k;
+const int ms = 200'000;
+int visited[ms + 4];
+long long cnt[ms + 4];
 
+vector<int> ret;
+
+void dfs(int cur, int vcnt)
+{
+	if (visited[cur] != vcnt) return;
+	ret.push_back(cur);
+	if (cur == n)
+	{
+		for (int i = ret.size() - 1; i >= 0; i--)
+		{
+			cout << ret[i] << " ";
+		}
+		exit(0);
+	}
+
+	dfs(cur - 1, vcnt - 1);
+	dfs(cur + 1, vcnt - 1);
+	if (cur % 2 == 0)
+		dfs(cur / 2, vcnt - 1);
+
+}
 int main()
 {
-	int n, k;
 	cin >> n >> k;
 	if (n == k)
 	{
 		cout << "0" << "\n";
-		cout << "1" << "\n";
+		cout << n << "\n";
 		return 0;
 	}
 	visited[n] = 1;
 	cnt[n] = 1;
 	queue<int> q;
 	q.push(n);
-	ret[n].push_back(n);
 
 	while (!q.empty())
 	{
 		int cur = q.front();
 		q.pop();
-		
+
+		if (cur == k) break;
+
 		for (int next : {cur - 1, cur + 1, cur * 2})
 		{
-			vector<int> t = ret[cur];
+			if (next < 0 || next > ms) continue;
 
-			if (next >= 0 && next <= MAX)
+			if (!visited[next])
 			{
-				if (!visited[next])
-				{
-					q.push(next);
-					visited[next] = visited[cur] + 1;
-					t.push_back(next);
-					ret[k] = t;
-				}
-				//else if (visited[next] == visited[cur] + 1)
-				//	cnt[next] += cnt[cur];
+				q.push(next);
+				visited[next] = visited[cur] + 1;
 			}
 		}
 	}
 
 	cout << visited[k] - 1 << '\n';
-	for (auto& e : ret[k])
-		cout << e << " ";
+	vector<int> t;
+	dfs(k, visited[k]);
+
 	return 0;
 }
