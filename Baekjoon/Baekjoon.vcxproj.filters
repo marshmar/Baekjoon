@@ -357,5 +357,20 @@
     <ClCompile Include="15684_G3_사다리 조작.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="17071_P5_숨바꼭질5_fail.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="17071_P5_숨바꼭질_ans.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3197_P5_백조의 호수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13913_G4_숨바꼭질_resolve1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2529_S1_부등호_resolve1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
