@@ -348,5 +348,14 @@
     <ClCompile Include="2529_S1_부등호_ans.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="9934_S1_완전 이진 트리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1189_S1_컴백홈.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15684_G3_사다리 조작.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
