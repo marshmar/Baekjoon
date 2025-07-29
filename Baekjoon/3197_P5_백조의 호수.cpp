@@ -1,60 +1,78 @@
+/*
+* 충분히 풀 수 있었던 문제지만 아쉽게도 못 풀었다.
+* 가장 핵심 알고리즘은 bfs를 한단계씩 진행하는 것.(플루드 필)
+* 백조에 대한 탐색을 먼저 하고, 만나지 않는다면 얼음을 녹이고,
+* 이 루프를 계속 돌게끔 하는 것.
+* visited를 초기화하지 않고 유지하는 알고리즘이 중요.
+* 
+* wq: water queue, wtq: water temp queue, sq: swan queue, stq: swan temp queue
+*/
 #include<iostream>
 #include<string>
 #include<queue>
 #include<tuple>
+#include<vector>
+#include<algorithm>
 using namespace std;
 using p_t = pair<int, int>;
 
 const int ms = 1504;
-int r, c, sy, sx;
-
-int visited[ms][ms];
 char map[ms][ms];
-queue<p_t> q;
+int wvisited[ms][ms], svisited[ms][ms];
+
+int r, c, sy, sx, ret;
+queue<p_t> wq, sq, wtq, stq;
 
 const int dy[]{ -1, 0, 1, 0 };
 const int dx[]{ 0, 1, 0, -1 };
 
-void print()
+void qclear(queue<p_t>& q)
 {
-	for (int i = 0; i < r; i++)
-	{
-		for (int j = 0; j < c; j++)
-		{
-			cout << visited[i][j] << " ";
-		} 
-		cout << "\n";
-	}
+	queue<p_t> empty;
+	q = empty; // swap(q, empty)
+}
 
-	for (int i = 0; i < r; i++)
+void Melt()
+{
+	while (wq.size())
 	{
-		for (int j = 0; j < c; j++)
+		int y, x;
+		tie(y, x) = wq.front(); wq.pop();
+		for (int i = 0; i < 4; i++)
 		{
-			cout << map[i][j] << " ";
+			int ny = y + dy[i];
+			int nx = x + dx[i];
+			if (ny < 0 || ny >= r || nx < 0 || nx >= c || wvisited[ny][nx]) continue;
+			if (map[ny][nx] == 'X')
+			{
+				wvisited[ny][nx] = 1;
+				wtq.push({ ny, nx });
+				map[ny][nx] = '.';
+			}
 		}
-		cout << "\n";
 	}
 }
-void dfs(int y, int x, int day)
+
+bool bfs()
 {
-	for (int i = 0; i < 4; i++)
+	while (sq.size())
 	{
-		int ny = y + dy[i];
-		int nx = x + dx[i];
-
-		if (ny < 0 || ny >= r || nx < 0 || nx >= c) continue;
-		if (visited[ny][nx] < day) continue;
-
-		if (map[ny][nx] == 'x')
+		int y, x;
+		tie(y, x) = sq.front(); sq.pop();
+		for (int i = 0; i < 4; i++)
 		{
-			map[ny][nx] = '.';
-			visited[ny][nx] = day + 1;
-			return;
-		}
+			int ny = y + dy[i];
+			int nx = x + dx[i];
 
-		visited[ny][nx] = day;
-		dfs(ny, nx, day);
+			if (ny < 0 || ny >= r || nx < 0 || nx >= c || svisited[ny][nx]) continue;
+			svisited[ny][nx] = 1;
+			if (map[ny][nx] == '.') sq.push({ ny, nx });
+			else if (map[ny][nx] == 'X') stq.push({ ny, nx });
+			else if (map[ny][nx] == 'L') return true;
+			
+		}
 	}
+	return false;
 }
 
 int main()
@@ -63,37 +81,40 @@ int main()
 	cin.tie(NULL); cout.tie(NULL);
 
 	cin >> r >> c;
-	cin.ignore();
-
 	string s;
 	for (int i = 0; i < r; i++)
 	{
-		getline(cin, s);
-		for (int j = 0; j < s.length(); j++)
+		cin >> s;
+		for (int j = 0; j < c; j++)
 		{
 			map[i][j] = s[j];
+			if (map[i][j] == 'L')
+			{
+				sy = i;
+				sx = j;
+			}
+			if (map[i][j] == '.' || map[i][j] == 'L')
+			{
+				wvisited[i][j] = 1;
+				wq.push({ i, j });
+			}
 		}
 	}
-
-	int day = 0;
+	
+	sq.push({ sy, sx });
+	svisited[sy][sx] = 1;
 	while (true)
 	{
-		for (int i = 0; i < r; i++)
-		{
-			for (int j = 0; j < c; j++)
-			{
-				if (visited[i][j] == day && map[i][j] == '.')
-				{
-					visited[i][j] = day;
-					dfs(i, j, day);
-				}
-			}
-		}	
-		cout << "\n";
-		print();
-		day++;
+		if (bfs()) break;
+		Melt();
+		// 플루드 필
+		wq = wtq;
+		sq = stq;
+		qclear(wtq);
+		qclear(stq);
+		ret++;
 	}
 
-
+	cout << ret << "\n";
 	return 0;
 }

@@ -8,7 +8,7 @@ using namespace std;
 
 const int ms = 500'000;
 int visited[2][ms + 4];	// 2차원 배열인 이유는 홀수 짝수 따로 저장(수빈이는 홀짝만 판단하면 된다)
-int n, k, turn = 1, flag;
+int n, k, turn = 1, flag; // turn은 시간 (1초, 2초...)
 
 int main()
 {

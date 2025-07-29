@@ -1,3 +1,9 @@
+/*
+* 강의 정답 코드
+* 숫자 선택은 0~9 * 개수 이므로
+* 재귀적으로 인덱스를 늘려가면서, for문으로 0~9의 숫자를 집어넣으면서 체크하면 되는 문제 
+* operation과 결과를 string에 넣고 마지막에 string만 벡터에 추가하면 되는 아이디어가 인상적임.
+*/
 #include<iostream>
 #include<vector>
 #include<algorithm>

@@ -1,3 +1,7 @@
+/*
+* dfs로 푸는 방식
+* 내가 풀었던 방식과 알고리즘은 비슷하나, 시간복잡도가 훨씬 좋음
+*/
 #include <iostream>
 #include <vector>
 

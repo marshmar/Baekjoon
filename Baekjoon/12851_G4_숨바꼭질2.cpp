@@ -1,6 +1,6 @@
 /*
 * dp로 풀려고 했으나 못 풀었음.
-* 핵심 알고리즘은 bfs
+* 핵심 알고리즘은 bfs탐색
 */
 #include<iostream>
 #include<queue>

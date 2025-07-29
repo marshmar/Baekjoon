@@ -1,3 +1,8 @@
+/*
+* queue 2개를 사용하는 핵심 코드
+* 핵심 알고리즘은 0은 계속 탐색하고, 1일때는 다른 queue에 저장해두었다가 다음 탐색에서 사용할 수 있도록 함.
+* 한 번의 bfs 호출로 모든 장애물 제거 가능.
+*/
 #include<iostream>
 #include<queue>
 #include<string>

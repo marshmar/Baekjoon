@@ -1,3 +1,10 @@
+/*
+* 혼자서 풀었던 답안.
+* flag가 false일 때 까지 무한 루프를 돈다
+* 그리고 각 지점에서 bfs를 통해 connected component를 구하고
+* 이를 벡터에 저장한 다음에 벡터 탐색을 통해 평균을 구하고 각 connected coponent
+* 원소에 이 평균을 저장하는 방식
+*/
 #include<iostream>
 #include<tuple>
 #include<vector>

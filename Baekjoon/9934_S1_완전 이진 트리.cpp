@@ -1,3 +1,7 @@
+/*
+* 문제가 잘못 설명 해주는 문제. 완전 이진트리가 아니라 포화 이진 트리임
+* bfs로 풀었으나, 사실 재귀적으로 해결하면 간단하게 해결 되는 문제
+*/
 #include<iostream>
 #include<vector>
 #include<queue>
