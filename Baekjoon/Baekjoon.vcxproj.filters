@@ -378,5 +378,14 @@
     <ClCompile Include="19942_G4_다이어트.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1285_G1_동전뒤집기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1062_G4_가르침.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1024_G4_가르침_ans.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
