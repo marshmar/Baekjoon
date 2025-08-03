@@ -399,5 +399,8 @@
     <ClCompile Include="15353_S3_큰 수 A+B.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="5430_G5_AC.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
