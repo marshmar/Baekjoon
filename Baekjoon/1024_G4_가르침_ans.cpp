@@ -8,7 +8,8 @@ string s;
 int count(int mask) 
 {
     int cnt = 0;
-    for (int word : words) {
+    for (int word : words) 
+    {
         if (word && (word & mask) == word)cnt++;
     }
     return cnt;
