@@ -432,5 +432,17 @@
     <ClCompile Include="13244_G4_Tree_ans.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="14391_G3_종이 조각_resolve1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15926_G3_현욱은 괄호왕이야!!.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15926_G3_현욱은 괄호왕이야!!_ans1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15926_G3_현욱은 괄호왕이야!!_ans2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
