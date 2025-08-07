@@ -420,5 +420,17 @@
     <ClCompile Include="2234_G3_성곽.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="14391_G3_종이 조각.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14391_G3_종이 조각_ans.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13244_G4_Tree.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13244_G4_Tree_ans.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
