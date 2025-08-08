@@ -444,5 +444,14 @@
     <ClCompile Include="15926_G3_현욱은 괄호왕이야!!_ans2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="3015_P5_오아시스 재결합.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3009_B3_네 번째 점.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3015_P5_오아시스 재결합_ans.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
