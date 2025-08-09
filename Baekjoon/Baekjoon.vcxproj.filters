@@ -453,5 +453,8 @@
     <ClCompile Include="3015_P5_오아시스 재결합_ans.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="15984_B3_수학은 체육과목 입니다.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
