@@ -459,5 +459,8 @@
     <ClCompile Include="24262_B5_알고리즘 수업 - 알고리즘의 수행 시간 1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2109_G3_순회강연.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
