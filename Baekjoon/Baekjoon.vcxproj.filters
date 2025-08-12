@@ -462,5 +462,17 @@
     <ClCompile Include="2109_G3_순회강연.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="9935_G4_문자열 폭발_ans1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9935_G4_문자열 폭발_ans2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1931_G5_회의실 배정.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1781_G2_컵라면.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
