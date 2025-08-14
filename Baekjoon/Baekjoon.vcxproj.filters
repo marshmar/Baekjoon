@@ -492,5 +492,29 @@
     <ClCompile Include="1644_G3_소수의 연속합_ans.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="13144_G3_List of Unique Numbers.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3273_S3_두수의 합.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13144_G3_List of Unique Numbers_ans.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1700_G1_멀티탭 스케줄링.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1700_G1_멀티탭 스케줄링_ans.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15926_G3_현욱은 괄호왕이야_resolve1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1202_G2_보석 도둑_resolve1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1644_G3_소수의 연속합_resolve1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
