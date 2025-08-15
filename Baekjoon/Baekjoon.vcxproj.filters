@@ -516,5 +516,8 @@
     <ClCompile Include="1644_G3_소수의 연속합_resolve1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="24263_B4_알고리즘 수업 - 알고리즘의 수행 시간 2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
