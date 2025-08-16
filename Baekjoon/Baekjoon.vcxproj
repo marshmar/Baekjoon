@@ -497,6 +497,7 @@
     <ClCompile Include="24263_B4_알고리즘 수업 - 알고리즘의 수행 시간 2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="24264_B3_알고리즘 수업 - 알고리즘의 수행 시간 3.cpp" />
     <ClCompile Include="2468_S1_안전 영역.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
