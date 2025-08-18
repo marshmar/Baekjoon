@@ -46,7 +46,6 @@ void expand(queue<p_t>& q)
 		m[y][x] -= (om[y][x] / 5) * cnt;
 		cnt = 0;
 	}
-	
 }
 
 void air()

@@ -525,5 +525,11 @@
     <ClCompile Include="17144_G4_미세먼지 안녕!.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="14889_S1_스타트와 링크.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14889_S1_스타트와 링크_ans.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
