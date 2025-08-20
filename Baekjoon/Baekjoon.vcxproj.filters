@@ -531,5 +531,14 @@
     <ClCompile Include="14889_S1_스타트와 링크_ans.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="12100_G1_2048(Easy).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="24265_B3_알고리즘 수업 - 알고리즘의 수행 시간4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="24266_B3_알고리즘 수업-알고리즘의 수행 시간 5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
