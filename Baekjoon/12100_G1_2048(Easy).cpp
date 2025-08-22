@@ -1,44 +1,76 @@
 #include<iostream>
+#include<vector>
+#include<cstring>
 using namespace std;
-
 const int ms = 24;
-int n, ret;
-int b[ms][ms], tb[ms][ms];
+int ret, n;
 
-void solve(int b[ms][ms], int cnt)
+struct B
+{
+	int b[ms][ms];
+	void rotateR90()
+	{
+		int temp[ms][ms];
+		for (int i = 0; i < n; i++)
+		{
+			for (int j = 0; j < n; j++)
+			{
+				temp[i][j] = b[n - j - 1][i];
+			}
+		}
+		memcpy(b, temp, sizeof(b));
+	}
+	void move()
+	{
+		int temp[ms][ms];
+		for (int i = 0; i < n; i++)
+		{
+			int c = -1, d = 0;
+			for (int j = 0; j < n; j++)
+			{
+				if (b[i][j] == 0) continue;
+				if (d && (b[i][j] == temp[i][c]))
+				{
+					temp[i][c] *= 2;
+					d = 0;
+				}
+				else
+				{
+					temp[i][++c] = b[i][j];
+					d = 1;
+				}
+			}
+			for (c++; c < n; c++)
+				temp[i][c] = 0;
+		}
+		memcpy(b, temp, sizeof(b));
+	}
+	void set_max()
+	{
+		for (int i = 0; i < n; i++)
+		{
+			for (int j = 0; j < n; j++)
+			{
+				ret = max(ret, b[i][j]);
+			}
+		}
+	}
+};
+
+void solve(B b, int cnt)
 {
 	if (cnt == 5)
 	{
-		for (int i = 0; i < n; i++)
-			for (int j = 0; j < n; j++)
-				ret = max(ret, b[i][j]);
+		b.set_max();
 		return;
 	}
-
-	int j = n-1, temp;
-	// 위
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i < 4; i++)
 	{
-		while (j> 0 && b[j][i] != 0) j--;
-		temp = b[j--][i];
-		while (j > 0 && b[j][i] != 0) j--;
+		B t = b;
+		t.move();
+		solve(t, cnt + 1);
+		b.rotateR90();
 	}
-	solve(tb, cnt + 1);
-	memcpy(tb, b, sizeof(b));
-
-	// 오른쪽
-
-	solve(tb, cnt + 1);
-	memcpy(tb, b, sizeof(b));
-
-	// 아래
-
-	solve(tb, cnt + 1);
-	memcpy(tb, b, sizeof(b));
-
-	// 왼쪽
-
-	solve(tb, cnt + 1);
 }
 
 int main()
@@ -47,12 +79,17 @@ int main()
 	cin.tie(NULL); cout.tie(NULL);
 	
 	cin >> n;
-
+	B t;
+	
 	for (int i = 0; i < n; i++)
+	{
 		for (int j = 0; j < n; j++)
-			cin >> b[i][j];
-
-	solve(b, 0);
+		{
+			cin >> t.b[i][j];
+		}
+	}
+	solve(t, 0);
 	cout << ret << "\n";
+
 	return 0;
 }
