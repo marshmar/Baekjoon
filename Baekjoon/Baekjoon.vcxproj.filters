@@ -549,5 +549,8 @@
     <ClCompile Include="17406_G4_배열 돌리기4.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="15662_G5_톱니바퀴(2).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
