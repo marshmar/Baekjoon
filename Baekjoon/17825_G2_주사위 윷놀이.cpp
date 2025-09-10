@@ -6,20 +6,10 @@
 #include<iostream>
 using namespace std;
 
-int a[10];
-
-int l1[20], l2[20];
 int main()
 {
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL); cout.tie(NULL);
-
-	for (int i = 0; i < 10; i++)
-		cin >> a[i];
-
-	for (int i = 1; i < 21; i++)
-		l1[i-1] = i * 2;
-
 
 	return 0;
 }
