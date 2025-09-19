@@ -576,5 +576,20 @@
     <ClCompile Include="30007_B5_ 라면 공식.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2792_S1_보석 상자.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11053_S2_가장 긴 증가하는 부분 수열.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11053_S2_가장 긴 증가하는 부분 수열_sol2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11658_P4_구간 합 구하기3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1753_G4_최단경로.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
