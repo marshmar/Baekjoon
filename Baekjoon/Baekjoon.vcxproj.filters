@@ -591,5 +591,8 @@
     <ClCompile Include="1753_G4_최단경로.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2343_S1_기타 레슨.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
