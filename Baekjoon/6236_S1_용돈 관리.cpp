@@ -1,3 +1,7 @@
+/*
+* 핵심 알고리즘: 이분 탐색
+* 시간복잡도: O(nlogn): 이분 탐색(O(logn)) * checkPrice(O(n))
+*/
 #include<iostream>
 #include<vector>
 using namespace std;
