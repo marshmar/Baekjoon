@@ -594,7 +594,16 @@
     <ClCompile Include="2343_S1_기타 레슨.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="6236_11_용돈 관리.cpp">
+    <ClCompile Include="6236_S1_용돈 관리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7795_S3_먹을 것인가 먹힐 것인가.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1269_11_대칭 차집합.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1389_S1_케빈 베이컨의 6단계 법칙.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
