@@ -323,6 +323,7 @@
     <ClCompile Include="1389_S1_케빈 베이컨의 6단계 법칙.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="1389_S1_케빈 베이컨의 6단계 법칙_Sol2.cpp" />
     <ClCompile Include="13913_G4_숨바꼭질4.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
