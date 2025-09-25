@@ -37,15 +37,15 @@ int main()
 		dist[b][a] = 1;
 	}
 
-	for (int i = 1; i <= n; i++)
+	for (int k = 1; k <= n; k++)
 	{
-		for (int j = 1; j <= n; j++)
+		for (int i = 1; i <= n; i++)
 		{
-			for (int k = 1; k <= n; k++)
+			for (int j = 1; j <= n; j++)
 			{
-				if (dist[j][i] != INF && dist[i][k] != INF)
+				if (dist[i][k] != INF && dist[k][j] != INF)
 				{
-					dist[j][k] = min(dist[j][k], dist[j][i] + dist[i][k]);
+					dist[i][j] = min(dist[i][j], dist[i][k] + dist[k][j]);
 				}
 			}
 		}
