@@ -37,10 +37,13 @@ int main()
 		dist[b][a] = 1;
 	}
 
+	// 거쳐가는 노드
 	for (int k = 1; k <= n; k++)
 	{
+		// 출발 노드
 		for (int i = 1; i <= n; i++)
 		{
+			// 목표 노드
 			for (int j = 1; j <= n; j++)
 			{
 				if (dist[i][k] != INF && dist[k][j] != INF)
