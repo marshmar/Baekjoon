@@ -636,5 +636,23 @@
     <ClCompile Include="14003_11_가장 긴 증가하는 부분 수열 5.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1561_11_놀이 공원.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2098_G1_외판원 순회_ans.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2098_G1_외판원 순회_sol1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2098_G1_외판원 순회_sol2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="17070_11_파이프 옮기기1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="17070_G5_파이프 옮기기1_sol1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
