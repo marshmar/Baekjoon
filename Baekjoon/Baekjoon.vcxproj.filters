@@ -654,5 +654,17 @@
     <ClCompile Include="17070_G5_파이프 옮기기1_sol1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="17070_G5_파이프 옮기기1_sol2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2098_G1_외판원 순회_sol3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1103_G2_게임_ans.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1103_G2_게임_sol1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
