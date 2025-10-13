@@ -699,5 +699,14 @@
     <ClCompile Include="4811_G5_알약_sol1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2098_G1_외판원 순회_sol5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4811_G5_알약_sol2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12852_11_1로 만들기2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
