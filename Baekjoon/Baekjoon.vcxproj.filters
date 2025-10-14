@@ -705,7 +705,16 @@
     <ClCompile Include="4811_G5_알약_sol2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="12852_11_1로 만들기2.cpp">
+    <ClCompile Include="12852_G5_1로 만들기2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12852_G5_1로 만들기2_sol1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="17070_G5_파이프 옮기기1_sol5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2240_G4_자두나무_sol3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
