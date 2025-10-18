@@ -729,5 +729,11 @@
     <ClCompile Include="2240_G4_자두나무_sol4.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="4811_G5_알약_sol4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2294_G5_동전2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
