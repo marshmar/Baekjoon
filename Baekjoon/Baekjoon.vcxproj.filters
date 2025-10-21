@@ -741,5 +741,20 @@
     <ClCompile Include="2293_G4_동전1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="12852_G5_1로 만들기2_sol3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2293_G4_동전1_sol1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2294_G4_동전2_sol2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2098_G1_외판원 순회_sol6.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2293_G4_동전1_sol2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
