@@ -21,5 +21,8 @@
     <ClCompile Include="폰켓몬.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="전화번호 목록.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
