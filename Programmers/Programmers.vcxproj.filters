@@ -24,5 +24,8 @@
     <ClCompile Include="전화번호 목록.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="의상.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
