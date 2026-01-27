@@ -27,5 +27,17 @@
     <ClCompile Include="의상.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="의상 resolve1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="베스트앨범.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="같은 숫자는 싫어_sol1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="같은 숫자는 싫어_sol2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
