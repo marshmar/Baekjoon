@@ -19,10 +19,12 @@ ll maxHp = LLONG_MAX-1, curHp, atk, n, ret;
 const int ms = 123'460;
 vector<t_t> rooms(ms);
 
+// 방을 도는 함수
 bool search(ll mid)
 {
 	ll chp = mid, catk = atk;
 	ll rt, ratk, rhp;
+
 	for (int i = 0; i < n; i++)
 	{
 		tie(rt, ratk, rhp) = rooms[i];
