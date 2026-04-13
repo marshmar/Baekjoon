@@ -15,7 +15,7 @@ void print()
 	return;
 }
 
-void solve()
+[[noreturn]]void solve()
 {
 	int sum = 0;
 	

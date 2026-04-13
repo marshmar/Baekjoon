@@ -636,5 +636,17 @@
     <ClCompile Include="14003_11_가장 긴 증가하는 부분 수열 5.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1561_11_놀이 공원.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2606_S3_바이러스.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2178_S1_미로 탐색_resolve1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="lv3_베스트앨범.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
