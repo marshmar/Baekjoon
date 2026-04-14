@@ -48,5 +48,8 @@
     <ClCompile Include="lv3_베스트앨범_sol2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lv2_프로세스.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
