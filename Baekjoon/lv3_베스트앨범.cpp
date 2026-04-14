@@ -53,3 +53,16 @@ vector<int> solution(vector<string> genres, vector<int> plays) {
 
     return answer;
 }
+
+int main()
+{
+    vector<string> g{ "classic", "pop", "classic", "classic", "pop" };
+    vector<int> p{ 500, 600, 150, 800, 2500 };
+
+    vector<int> ret = solution(g, p);
+    for (auto& e : ret)
+    {
+        cout << e << " ";
+    }
+    return 0;
+}
