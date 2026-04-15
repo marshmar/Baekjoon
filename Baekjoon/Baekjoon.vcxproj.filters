@@ -645,8 +645,5 @@
     <ClCompile Include="2178_S1_미로 탐색_resolve1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="lv3_베스트앨범.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
