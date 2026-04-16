@@ -51,5 +51,8 @@
     <ClCompile Include="lv2_프로세스.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lv2_더 맵게.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
