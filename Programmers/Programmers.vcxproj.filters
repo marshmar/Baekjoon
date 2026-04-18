@@ -15,5 +15,7 @@
     <ClCompile Include="의상.cpp" />
     <ClCompile Include="전화번호 목록.cpp" />
     <ClCompile Include="폰켓몬.cpp" />
+    <ClCompile Include="lv3_디스크 컨트롤러.cpp" />
+    <ClCompile Include="lv3_디스크 컨트롤러_ans.cpp" />
   </ItemGroup>
 </Project>
