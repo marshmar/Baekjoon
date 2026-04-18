@@ -17,5 +17,6 @@
     <ClCompile Include="폰켓몬.cpp" />
     <ClCompile Include="lv3_디스크 컨트롤러.cpp" />
     <ClCompile Include="lv3_디스크 컨트롤러_ans.cpp" />
+    <ClCompile Include="lv3_이중우선순위큐.cpp" />
   </ItemGroup>
 </Project>
