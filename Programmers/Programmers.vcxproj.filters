@@ -20,5 +20,6 @@
     <ClCompile Include="lv3_이중우선순위큐.cpp" />
     <ClCompile Include="lv1_k번째수.cpp" />
     <ClCompile Include="lv2_가장 큰 수.cpp" />
+    <ClCompile Include="lv2_H-Index.cpp" />
   </ItemGroup>
 </Project>
