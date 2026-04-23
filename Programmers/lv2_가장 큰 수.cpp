@@ -4,6 +4,7 @@
 #include <algorithm>
 using namespace std;
 
+// 정렬할 때 문자열이 수가 더 큰 수가 오른쪽으로 가게 정렬하면 해결되는 문제
 bool compare(int& left, int& right)
 {
     string stringLeft = to_string(left);
