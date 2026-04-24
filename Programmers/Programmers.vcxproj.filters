@@ -23,5 +23,6 @@
     <ClCompile Include="lv2_H-Index.cpp" />
     <ClCompile Include="lv1_최소 직사각형.cpp" />
     <ClCompile Include="lv1_모의고사.cpp" />
+    <ClCompile Include="lv2_소수 찾기.cpp" />
   </ItemGroup>
 </Project>
