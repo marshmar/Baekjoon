@@ -24,5 +24,7 @@
     <ClCompile Include="lv1_최소 직사각형.cpp" />
     <ClCompile Include="lv1_모의고사.cpp" />
     <ClCompile Include="lv2_소수 찾기.cpp" />
+    <ClCompile Include="lv2 카펫.cpp" />
+    <ClCompile Include="lv3_이중우선순위큐_resol1.cpp" />
   </ItemGroup>
 </Project>
