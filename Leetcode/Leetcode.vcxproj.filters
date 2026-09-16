@@ -18,5 +18,8 @@
     <ClCompile Include="Remove Duplicates From Sorted Array.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="1.Two Sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
