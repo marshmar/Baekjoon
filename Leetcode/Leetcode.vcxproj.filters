@@ -27,5 +27,11 @@
     <ClCompile Include="Best Time to Buy and Sell Stock ii_sol2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="189.Rotate Array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="189.Rotate Array_sol2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
