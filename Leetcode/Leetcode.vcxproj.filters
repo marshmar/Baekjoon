@@ -33,5 +33,14 @@
     <ClCompile Include="189.Rotate Array_sol2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="217.Contains Duplicate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="136.Single Number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="136.Single Number_sol2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
