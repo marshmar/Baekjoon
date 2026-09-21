@@ -24,7 +24,7 @@
     <ClCompile Include="Best Time to Buy and Sell Stock II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Best Time to Buy and Sell Stock ii_sol2.cpp">
+    <ClCompile Include="Best Time to Buy and Sell Stock II_sol2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="189.Rotate Array.cpp">
@@ -40,6 +40,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="136.Single Number_sol2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="350.Intersection of Two Arrays II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
