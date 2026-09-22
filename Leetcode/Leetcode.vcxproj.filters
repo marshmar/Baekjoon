@@ -45,5 +45,11 @@
     <ClCompile Include="350.Intersection of Two Arrays II.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="66.Plus One.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="66.Plus One_sol2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
