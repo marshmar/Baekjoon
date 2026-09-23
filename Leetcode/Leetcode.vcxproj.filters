@@ -51,5 +51,11 @@
     <ClCompile Include="66.Plus One_sol2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="283.Move zeroes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="293.Move zeroes_sol2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
