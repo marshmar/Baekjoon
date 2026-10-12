@@ -30,5 +30,6 @@
     <ClCompile Include="lv2_피로도.cpp" />
     <ClCompile Include="lv2_전력망을 둘로 나누기_ans.cpp" />
     <ClCompile Include="lv2_전력망을 둘로 나누기.cpp" />
+    <ClCompile Include="lv2_모음사전.cpp" />
   </ItemGroup>
 </Project>
