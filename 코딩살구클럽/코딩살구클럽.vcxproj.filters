@@ -16,10 +16,16 @@
     <Filter Include="Week1">
       <UniqueIdentifier>{73fe646e-08f9-4715-9e39-eb5dc18c72aa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Week8">
+      <UniqueIdentifier>{c5afaee6-a864-4463-92f3-e03dc8000752}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1-A_일곱난쟁이.cpp">
       <Filter>Week1</Filter>
+    </ClCompile>
+    <ClCompile Include="8-K_구간 합 구하기.cpp">
+      <Filter>Week8</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
