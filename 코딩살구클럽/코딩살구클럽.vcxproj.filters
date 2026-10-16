@@ -27,5 +27,8 @@
     <ClCompile Include="8-K_구간 합 구하기.cpp">
       <Filter>Week8</Filter>
     </ClCompile>
+    <ClCompile Include="8-L_구간 합 구하기3.cpp">
+      <Filter>Week8</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
