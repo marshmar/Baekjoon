@@ -1,12 +1,13 @@
 #include<iostream>
 #include<vector>
+
 //#include <bits/stdc++.h>
 using namespace std;
 
-vector<vector<int>> RowTree, ColTree, nums;
-int N, M;       // N: 표의 크기 M: 수행해야 하는 연산 수
+int N, M;
+vector<vector<int>> nums, RowTrees;
 
-void update(vector<int>& tree, int index, int value)
+void Update(vector<int>& tree, int index, int value)
 {
     while (index < tree.size())
     {
@@ -15,7 +16,7 @@ void update(vector<int>& tree, int index, int value)
     }
 }
 
-int sum(vector<int>& tree, int index)
+int Sum(vector<int>& tree, int index)
 {
     int ret = 0;
     while (index > 0)
@@ -23,6 +24,7 @@ int sum(vector<int>& tree, int index)
         ret += tree[index];
         index -= (index & -index);
     }
+
     return ret;
 }
 
@@ -31,49 +33,57 @@ int main() {
     cin.tie(nullptr);
 
     cin >> N >> M;
-   
-    RowTree.resize(N + 1);
-    ColTree.resize(N + 1);
+
+    // 초기화
+    RowTrees.resize(N + 1);
     nums.resize(N + 1);
 
     for (int i = 1; i <= N; i++)
     {
-        RowTree[i].resize(N + 1);
-        ColTree[i].resize(N + 1);
-        nums[i].resize(N + 1);
+        RowTrees[i].resize(N + 1, 0);
+        nums[i].resize(N + 1, 0);
+
         for (int j = 1; j <= N; j++)
         {
             cin >> nums[i][j];
         }
     }
-    
-    // 초기 펜윅트리 구하기
+
     for (int i = 1; i <= N; i++)
     {
-            
+        for (int j = 1; j <= N; j++)
+        {
+            Update(RowTrees[i], j, nums[i][j]);
+        }
     }
 
-    int w, x, y, c, x1, y1, x2, y2;
+    
+    int w = 0, x = 0, y = 0, c = 0, x1 = 0, y1 = 0, x2 = 0, y2 = 0;
     while (M--)
     {
         cin >> w;
+
         if (w == 0)
         {
-            cin >> x >> y >> c;
-            // 가로 업데이트
-            update(RowTree[x], x, c - nums[x][y]);
-            // 세로 업데이트
-            update(ColTree[x], y, c - nums[x][y]);
-            // 숫자 갱신
-            nums[y][x] = c;
+            cin >> x >> y >> c; //  x: 행, y: 열
+            int diff = c - nums[x][y];
+
+            nums[x][y] = c;
+
+            // 가로 tree 업데이트
+            Update(RowTrees[x], y, diff);
         }
         else
         {
             cin >> x1 >> y1 >> x2 >> y2;
-            int RowSum = sum(RowTree[x2], x2) - sum(RowTree[x1 - 1], x1 - 1);
-            int ColSum = sum(ColTree[y2], y2) - sum(ColTree[x2 - 1], x2 - 1);
 
-            cout << RowSum + ColSum << endl;
+            int ret = 0;
+            for (int k = x1; k <= x2; k++)
+            {
+                ret += Sum(RowTrees[k], y2) - Sum(RowTrees[k], y1 - 1);
+            }
+
+            cout << ret << '\n';
         }
     }
     
